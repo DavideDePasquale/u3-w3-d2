@@ -17,7 +17,7 @@ const Favourites = () => {
               style={{ border: "1px solid #00000033", borderRadius: 4 }}
             >
               <Col xs={3}>
-                <Link to={`/${company}`}>{company}</Link>
+                <Link to={`/${company}`}>{company.company_name}</Link>
               </Col>
             </Row>
           ))}
